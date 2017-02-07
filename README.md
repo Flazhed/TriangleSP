@@ -10,3 +10,6 @@ Test for isoceles (B,C) |3,4,4 | 2 |
 Test for equilateral |10,10,10 | 1 |
 Test for negative input |4,4,-3 | -1 |
 Test for zero input |4,4,0 | -1 |
+Test for decimal input |4,4,4.0 | -1 |
+Test for string input |4,4,"four" | -1 |
+Test for special character input |4,4,% | -1 |
